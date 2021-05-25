@@ -20,8 +20,12 @@
                 age: 33
             }
 
-            handleClick(e){
+            handleClick = (e) => {
                 //console.log(e.target);
+                this.setState({
+                    name: "Tyrion",
+                    age: "28"
+                })
                 console.log(this.state);
             }
 
